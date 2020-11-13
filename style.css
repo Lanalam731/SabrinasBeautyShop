@@ -8,7 +8,7 @@
   border-color: hotpink;
 }
 
-li:last-child {
+#menu li:last-child {
   border-right: none;
 }
 
@@ -74,7 +74,6 @@ div+div {
 footer {
   background-color: black;
   color: white;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -100,5 +99,71 @@ th {
 
 td{
   font-weight: lighter;
+  font-size:25px;
 }
+.fab{
+  font-size:30px;
+}
+
+#services {
+  text-align: center;
+}
+#services h1 {
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+#services h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#services h3 {
+  font-size: 15px;
+  font-family: ;
+  font-style: italic;
+}
+
+iframe {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
