@@ -97,17 +97,19 @@ th {
   color: hotpink;
 }
 
-td{
+td {
   font-weight: lighter;
-  font-size:25px;
+  font-size: 25px;
 }
-.fab{
-  font-size:30px;
+
+.fab {
+  font-size: 30px;
 }
 
 #services {
   text-align: center;
 }
+
 #services h1 {
   font-size: 80px;
   font-weight: bolder;
@@ -125,45 +127,27 @@ td{
 }
 
 iframe {
-  padding-top: 20px;
+  padding-top: 120px;
   padding-bottom: 20px;
-  margin-left: 700px;
 }
 
+#Location h1 {
+  text-align: left;
+  position: absolute;
+  margin-left: 110px;
+  font-size: 65px;
+}
 
+#Location p {
+  text-align: left;
+  position: absolute;
+  margin-left: 110px;
+  font-size: 35px;
+  padding-top: 110px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Location img{
+margin-left: 300px;
+padding-right:190px;
+padding-bottom: 100px;
+}
