@@ -151,3 +151,27 @@ margin-left: 300px;
 padding-right:190px;
 padding-bottom: 100px;
 }
+
+#products h1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+#products table {
+  margin-left: 115px;
+  width: 1175px;
+  text-align: center;
+}
+
+#prices td {
+  font-style: italic;
+}
+
+#sabrina p {
+  font-size: 25px;
+  font-family: didot, serif;
+  width: 600px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
