@@ -131,14 +131,14 @@ iframe {
   padding-bottom: 20px;
 }
 
-#Location h1 {
+#location h1 {
   text-align: left;
   position: absolute;
   margin-left: 110px;
   font-size: 65px;
 }
 
-#Location p {
+#location p {
   text-align: left;
   position: absolute;
   margin-left: 110px;
@@ -146,7 +146,7 @@ iframe {
   padding-top: 110px;
 }
 
-#Location img{
+#location img{
 margin-left: 300px;
 padding-right:190px;
 padding-bottom: 100px;
@@ -174,4 +174,9 @@ padding-bottom: 100px;
   width: 600px;
   padding-bottom: 20px;
   text-align: justify;
+}
+
+#products img {
+  height: 350px;
+  width: 300px;
 }
