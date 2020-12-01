@@ -83,7 +83,7 @@ footer {
   padding-bottom: 25px;
 }
 
-table {
+#footer table {
   width: 80%;
   margin-left: auto;
   margin-right: 60px;
@@ -91,13 +91,13 @@ table {
   font-family: Garamond;
 }
 
-th {
+#footer th {
   font-weight: bolder;
   font-size: 25px;
   color: hotpink;
 }
 
-td {
+#footer td {
   font-weight: lighter;
   font-size: 25px;
 }
@@ -176,6 +176,11 @@ iframe {
   width: 600px;
   padding-bottom: 20px;
   text-align: justify;
+  vertical-align: top;
+}
+
+#sabrina img {
+  align: right;
 }
 
 #products img {
@@ -190,13 +195,14 @@ iframe {
 }
 
 #demo img {
-  height: 500px;
-  width: 500px;
+  height: 1000px;
+  width: 750px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
 }
-.carousel-control-prev {
-  color: hotpink;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+  color: #ff69B4 !important;
 }
