@@ -127,18 +127,18 @@ td {
 }
 
 iframe {
-  padding-top: 120px;
+  padding-top: 140px;
   padding-bottom: 20px;
 }
 
-#Location h1 {
+#location h1 {
   text-align: left;
   position: absolute;
   margin-left: 110px;
   font-size: 65px;
 }
 
-#Location p {
+#location p {
   text-align: left;
   position: absolute;
   margin-left: 110px;
@@ -146,10 +146,10 @@ iframe {
   padding-top: 110px;
 }
 
-#Location img{
-margin-left: 300px;
-padding-right:190px;
-padding-bottom: 100px;
+#location img {
+  margin-left: 300px;
+  padding-right: 190px;
+  padding-bottom: 100px;
 }
 
 #products h1 {
@@ -159,13 +159,15 @@ padding-bottom: 100px;
 }
 
 #products table {
-  margin-left: 115px;
+  margin-left: 90px;
+  margin-right: 115px;
   width: 1175px;
   text-align: center;
 }
 
 #prices td {
   font-style: italic;
+  width: 391px;
 }
 
 #sabrina p {
@@ -174,4 +176,27 @@ padding-bottom: 100px;
   width: 600px;
   padding-bottom: 20px;
   text-align: justify;
+}
+
+#products img {
+  height: 350px;
+  width: 250px;
+}
+
+#gallery h1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+#demo img {
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.carousel-control-prev {
+  color: hotpink;
 }
