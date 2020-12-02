@@ -171,12 +171,17 @@ iframe {
 }
 
 #sabrina p {
-  font-size: 25px;
+  font-size: 30px;
   font-family: didot, serif;
   width: 600px;
   padding-bottom: 20px;
+  font-weight: lighter;
   text-align: justify;
   vertical-align: top;
+}
+
+#sabrina table {
+  width: 1110px;
 }
 
 #sabrina img {
@@ -201,8 +206,59 @@ iframe {
   margin-left: auto;
   margin-right: auto;
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   filter: invert(1);
   color: #ff69B4 !important;
+}
+
+#who h1 {
+  text-align: center;
+  margin-left: 110px;
+}
+
+#who p {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
+
+}
+
+#goals h1 {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
+
+}
+
+#goals p {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
+
+}
+
+#book h1 {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+#book p {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+#reviews h1 {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+#reviews ul {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
 }
