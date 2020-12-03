@@ -83,7 +83,7 @@ footer {
   padding-bottom: 25px;
 }
 
-table {
+#footer table {
   width: 80%;
   margin-left: auto;
   margin-right: 60px;
@@ -91,13 +91,13 @@ table {
   font-family: Garamond;
 }
 
-th {
+#footer th {
   font-weight: bolder;
   font-size: 25px;
   color: hotpink;
 }
 
-td {
+#footer td {
   font-weight: lighter;
   font-size: 25px;
 }
@@ -127,7 +127,7 @@ td {
 }
 
 iframe {
-  padding-top: 120px;
+  padding-top: 140px;
   padding-bottom: 20px;
 }
 
@@ -146,10 +146,10 @@ iframe {
   padding-top: 110px;
 }
 
-#location img{
-margin-left: 300px;
-padding-right:190px;
-padding-bottom: 100px;
+#location img {
+  margin-left: 300px;
+  padding-right: 190px;
+  padding-bottom: 100px;
 }
 
 #products h1 {
@@ -159,7 +159,8 @@ padding-bottom: 100px;
 }
 
 #products table {
-  margin-left: 115px;
+  margin-left: 90px;
+  margin-right: 115px;
   width: 1175px;
   text-align: center;
 }
@@ -170,14 +171,94 @@ padding-bottom: 100px;
 }
 
 #sabrina p {
-  font-size: 25px;
+  font-size: 30px;
   font-family: didot, serif;
   width: 600px;
   padding-bottom: 20px;
+  font-weight: lighter;
   text-align: justify;
+  vertical-align: top;
+}
+
+#sabrina table {
+  width: 1110px;
+}
+
+#sabrina img {
+  align: right;
 }
 
 #products img {
   height: 350px;
-  width: 300px;
+  width: 250px;
+}
+
+#gallery h1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+#demo img {
+  height: 1000px;
+  width: 750px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+  color: #ff69B4 !important;
+}
+
+#who h1 {
+  text-align: center;
+  margin-left: 110px;
+}
+
+#who p {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
+
+}
+
+#goals h1 {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
+
+}
+
+#goals p {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
+
+}
+
+#book h1 {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+#book p {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+#reviews h1 {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+#reviews ul {
+  text-align: center;
+  margin-left: 110px;
+  margin-right: 110px;
 }
