@@ -57,6 +57,22 @@ a {
   color: ivory;
 }
 
+a:visited {
+  text-decoration: none;
+  color: ivory;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: ivory;
+}
+
+a:active {
+  text-decoration: none;
+  color: ivory;
+}
+
 div+div {
   margin-top: 20px;
 }
@@ -186,6 +202,7 @@ iframe {
 
 #sabrina img {
   align: right;
+  height: 500px;
 }
 
 #products img {
@@ -193,10 +210,11 @@ iframe {
   width: 250px;
 }
 
-#gallery h1 {
+#gallery {
   text-align: center;
   font-size: 80px;
-  font-weight: bolder;
+  font-weight: ;
+  font-family: Garamond;
 }
 
 #demo img {
@@ -216,19 +234,22 @@ iframe {
 #who h1 {
   text-align: center;
   margin-left: 110px;
+  margin-right: 110px;
+  font-size: 50px;
 }
 
 #who p {
   text-align: center;
   margin-left: 110px;
   margin-right: 110px;
-
+  font-size: 30px;
 }
 
 #goals h1 {
   text-align: center;
   margin-left: 110px;
   margin-right: 110px;
+  font-size: 50px;
 
 }
 
@@ -236,6 +257,7 @@ iframe {
   text-align: center;
   margin-left: 110px;
   margin-right: 110px;
+  font-size: 30px;
 
 }
 
@@ -243,22 +265,51 @@ iframe {
   text-align: center;
   margin-left: 110px;
   margin-right: 110px;
+  font-size: 50px;
+
 }
 
 #book p {
   text-align: center;
   margin-left: 110px;
   margin-right: 110px;
+  font-size: 30px;
+
 }
 
 #reviews h1 {
   text-align: center;
   margin-left: 110px;
   margin-right: 110px;
+  font-size: 50px;
+
 }
 
 #reviews ul {
   text-align: center;
+  font-style: italic;
+  margin-left: 110px;
+  margin-right: 110px;
+  font-size: 30px;
+  list-style-type: none;
+
+}
+
+hr {
+  margin-left: 110px;
+  margin-right: 110px;
+  color: hotpink;
+  background-color: hotpink;
+  height: 1px;
+}
+
+#homepage img {
+  width: 1185px;
+  height: 600px;
   margin-left: 110px;
   margin-right: 110px;
 }
+
+
+
+
