@@ -210,10 +210,10 @@ iframe {
   width: 250px;
 }
 
-#gallery {
+#gallery h1{
   text-align: center;
   font-size: 80px;
-  font-weight: ;
+  font-weight: bolder;
   font-family: Garamond;
 }
 
@@ -274,7 +274,6 @@ iframe {
   margin-left: 110px;
   margin-right: 110px;
   font-size: 30px;
-
 }
 
 #reviews h1 {
@@ -282,7 +281,6 @@ iframe {
   margin-left: 110px;
   margin-right: 110px;
   font-size: 50px;
-
 }
 
 #reviews ul {
@@ -292,7 +290,6 @@ iframe {
   margin-right: 110px;
   font-size: 30px;
   list-style-type: none;
-
 }
 
 hr {
@@ -310,6 +307,701 @@ hr {
   margin-right: 110px;
 }
 
+#FAQ h1 {
+  margin-left: 110px;
+  margin-right: 110px;
+  text-align: center;
+  font-size: 50px;
+}
 
+#FAQ ul {
+  margin-left: 110px;
+  margin-right: 110px;
+  list-style:none; 
+  font-size: 30px;
+  padding-bottom: 30px;
+}
 
+#FAQ ol{
+  list-style: none;
+  font-size: 30px;
+}
+#FAQ ul > li {
+  font-style: italic;
+}
 
+@media only screen and (max-width: 770px) {
+  #menu li {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: solid;
+    border-color: hotpink;
+  }
+  
+  #menu li:last-child {
+    border-right: none;
+  }
+  
+  #heading h1 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-family: Garamond;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+  }
+  
+  #heading {
+    background-color: hotpink;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width:395px;
+  }
+  
+  #heading img {
+    height: 75px;
+    width: auto;
+  }
+  
+  #menu {
+    text-align: center;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+    width: 375px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  body {
+    background-color: ivory;
+  }
+  
+  a {
+    text-decoration: none;
+    color: ivory;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: ivory;
+  
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: ivory;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: ivory;
+  }
+  
+  div+div {
+    margin-top: 20px;
+  }
+  
+  #sabrina {
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+  
+  #sabrina h2 {
+    font-family: Garamond;
+    font-size: 50px;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 395px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  #footer table {
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-family: Garamond;
+  }
+  
+  #footer th {
+    font-weight: bolder;
+    font-size: 15px;
+    color: hotpink;
+  }
+  
+  #footer td {
+    font-weight: lighter;
+    font-size: 15px;
+  }
+  
+  .fab {
+    font-size: 30px;
+  }
+  
+  #services {
+    text-align: center;
+  }
+  
+  #services h1 {
+    font-size: 80px;
+    font-weight: bolder;
+  }
+  
+  #services h2 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  #services h3 {
+    font-size: 15px;
+    font-family: ;
+    font-style: italic;
+  }
+  
+  iframe {
+    padding-top: 140px;
+    padding-bottom: 20px;
+  }
+  
+  #location h1 {
+    text-align: left;
+    position: absolute;
+    margin-left: 110px;
+    font-size: 65px;
+  }
+  
+  #location p {
+    text-align: left;
+    position: absolute;
+    margin-left: 110px;
+    font-size: 35px;
+    padding-top: 110px;
+  }
+  
+  #location img {
+    margin-left: 300px;
+    padding-right: 190px;
+    padding-bottom: 100px;
+  }
+  
+  #products h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+  }
+  
+  #products table {
+    margin-left: 90px;
+    margin-right: 115px;
+    width: 1175px;
+    text-align: center;
+  }
+  
+  #prices td {
+    font-style: italic;
+    width: 391px;
+  }
+  
+  #sabrina p {
+    font-size: 30px;
+    font-family: didot, serif;
+    width: 600px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    text-align: justify;
+    vertical-align: top;
+  }
+  
+  #sabrina table {
+    width: 1110px;
+  }
+  
+  #sabrina img {
+    align: right;
+    height: 500px;
+  }
+  
+  #products img {
+    height: 350px;
+    width: 250px;
+  }
+  
+  #gallery h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: Garamond;
+  }
+  
+  #demo img {
+    height: 1000px;
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(1);
+    color: #ff69B4 !important;
+  }
+  
+  #who h1 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 35px;
+    width: 375px;
+  }
+  
+  #who p {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 375px;
+  }
+  
+  #goals h1 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 35px;
+    width: 375px;
+  }
+  
+  #goals p {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 375px;
+  }
+  
+  #book h1 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 35px;
+    width: 375px;
+  }
+  
+  #book p {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 375px;
+  }
+  
+  #reviews h1 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 35px;
+    width: 375px;
+  }
+  
+  #reviews ul {
+    text-align: center;
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    list-style-type: none;
+    width: 375px;
+  }
+  
+  hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: hotpink;
+    background-color: hotpink;
+    height: 1px;
+    width: 360px;
+  }
+  
+  #homepage img {
+    width: 375px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #FAQ h1 {
+    margin-left: 110px;
+    margin-right: 110px;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  #FAQ ul {
+    margin-left: 110px;
+    margin-right: 110px;
+    list-style:none; 
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  
+  #FAQ ol{
+    list-style: none;
+    font-size: 30px;
+  }
+  #FAQ ul > li {
+    font-style: italic;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #menu li {
+    display: inline;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: solid;
+    border-color: hotpink;
+  }
+  
+  #menu li:last-child {
+    border-right: none;
+  }
+  
+  #heading h1 {
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    font-family: Garamond;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+  }
+  
+  #heading {
+    background-color: hotpink;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+  }
+  
+  #heading img {
+    height: 150px;
+    width: auto;
+  }
+  
+  #menu {
+    text-align: center;
+    background-color: black;
+    margin-left: 110px;
+    margin-right: 110px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  body {
+    background-color: ivory;
+  }
+  
+  a {
+    text-decoration: none;
+    color: ivory;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: ivory;
+  
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: ivory;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: ivory;
+  }
+  
+  div+div {
+    margin-top: 20px;
+  }
+  
+  #sabrina {
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+  
+  #sabrina h2 {
+    font-family: Garamond;
+    font-size: 50px;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  #footer table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: 60px;
+    text-align: left;
+    font-family: Garamond;
+  }
+  
+  #footer th {
+    font-weight: bolder;
+    font-size: 25px;
+    color: hotpink;
+  }
+  
+  #footer td {
+    font-weight: lighter;
+    font-size: 25px;
+  }
+  
+  .fab {
+    font-size: 30px;
+  }
+  
+  #services {
+    text-align: center;
+  }
+  
+  #services h1 {
+    font-size: 80px;
+    font-weight: bolder;
+  }
+  
+  #services h2 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  #services h3 {
+    font-size: 15px;
+    font-family: ;
+    font-style: italic;
+  }
+  
+  iframe {
+    padding-top: 140px;
+    padding-bottom: 20px;
+  }
+  
+  #location h1 {
+    text-align: left;
+    position: absolute;
+    margin-left: 110px;
+    font-size: 65px;
+  }
+  
+  #location p {
+    text-align: left;
+    position: absolute;
+    margin-left: 110px;
+    font-size: 35px;
+    padding-top: 110px;
+  }
+  
+  #location img {
+    margin-left: 300px;
+    padding-right: 190px;
+    padding-bottom: 100px;
+  }
+  
+  #products h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+  }
+  
+  #products table {
+    margin-left: 90px;
+    margin-right: 115px;
+    width: 1175px;
+    text-align: center;
+  }
+  
+  #prices td {
+    font-style: italic;
+    width: 391px;
+  }
+  
+  #sabrina p {
+    font-size: 30px;
+    font-family: didot, serif;
+    width: 600px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    text-align: justify;
+    vertical-align: top;
+  }
+  
+  #sabrina table {
+    width: 1110px;
+  }
+  
+  #sabrina img {
+    align: right;
+    height: 500px;
+  }
+  
+  #products img {
+    height: 350px;
+    width: 250px;
+  }
+  
+  #gallery h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: Garamond;
+  }
+  
+  #demo img {
+    height: 1000px;
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(1);
+    color: #ff69B4 !important;
+  }
+  
+  #who h1 {
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-size: 50px;
+  }
+  
+  #who p {
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-size: 30px;
+  }
+  
+  #goals h1 {
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-size: 50px;
+  
+  }
+  
+  #goals p {
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-size: 30px;
+  
+  }
+  
+  #book h1 {
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-size: 50px;
+  
+  }
+  
+  #book p {
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-size: 30px;
+  }
+  
+  #reviews h1 {
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-size: 50px;
+  }
+  
+  #reviews ul {
+    text-align: center;
+    font-style: italic;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-size: 30px;
+    list-style-type: none;
+  }
+  
+  hr {
+    margin-left: 110px;
+    margin-right: 110px;
+    color: hotpink;
+    background-color: hotpink;
+    height: 1px;
+  }
+  
+  #homepage img {
+    width: 1185px;
+    height: 600px;
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+  
+  #FAQ h1 {
+    margin-left: 110px;
+    margin-right: 110px;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  #FAQ ul {
+    margin-left: 110px;
+    margin-right: 110px;
+    list-style:none; 
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  
+  #FAQ ol{
+    list-style: none;
+    font-size: 30px;
+  }
+  #FAQ ul > li {
+    font-style: italic;
+  }
+}
