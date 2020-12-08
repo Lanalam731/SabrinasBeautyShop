@@ -694,7 +694,7 @@ hr {
   #menu li:last-child {
     border-right: none;
   }
-  
+
   #heading h1 {
     font-size: 30px;
     color: white;
@@ -763,13 +763,14 @@ hr {
   }
   
   #sabrina {
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   
   #sabrina h2 {
     font-family: Garamond;
-    font-size: 50px;
+    font-size: 30px;
+    margin-bottom: 0px;
   }
   
   footer {
@@ -779,13 +780,13 @@ hr {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 25px;
     padding-bottom: 25px;
   }
   
   #footer table {
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: 60px;
     text-align: left;
@@ -794,13 +795,14 @@ hr {
   
   #footer th {
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 18px;
     color: hotpink;
   }
   
   #footer td {
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 13px;
+    align-content: top;
   }
   
   .fab {
@@ -875,9 +877,9 @@ hr {
   }
   
   #sabrina p {
-    font-size: 30px;
+    font-size: 12px;
     font-family: didot, serif;
-    width: 600px;
+    width: 215px;
     padding-bottom: 20px;
     font-weight: lighter;
     text-align: justify;
@@ -885,12 +887,12 @@ hr {
   }
   
   #sabrina table {
-    width: 1110px;
+    width: 100%;
   }
   
   #sabrina img {
-    align: right;
-    height: 500px;
+    height: 200px;
+    padding-top: 0px;
   }
   
   #products img {
@@ -924,7 +926,7 @@ hr {
     margin-left: 5px;
     margin-right: 5px;
     font-size: 25px;
-    width: 400px;
+    width: 395px;
   }
   
   #who p {
@@ -932,7 +934,7 @@ hr {
     margin-left: 5px;
     margin-right: 5px;
     font-size: 15px;
-    width: 400px;
+    width: 395px;
   }
   
   #goals h1 {
@@ -940,7 +942,7 @@ hr {
     margin-left: 5px;
     margin-right: 5px;
     font-size: 25px;
-    width: 400px;
+    width: 395px;
   
   }
   
@@ -949,7 +951,7 @@ hr {
     margin-left: 5px;
     margin-right: 5px;
     font-size: 15px;
-    width: 400px;
+    width: 395px;
   
   }
   
@@ -958,7 +960,7 @@ hr {
     margin-left: 5px;
     margin-right: 5px;
     font-size: 25px;
-    width: 400px;
+    width: 395px;
   
   }
   
@@ -967,7 +969,7 @@ hr {
     margin-left: 5px;
     margin-right: 5px;
     font-size: 15px;
-    width: 400px;
+    width: 395px;
   }
   
   #reviews h1 {
@@ -975,7 +977,7 @@ hr {
     margin-left: 5px;
     margin-right: 5px;
     font-size: 25px;
-    width: 400px;
+    width: 395px;
   }
   
   #reviews ul {
@@ -989,9 +991,9 @@ hr {
   }
   
   hr {
-    margin-left: 10px;
+    margin-left: 100px;
     margin-right: 10px;
-    width: 30px;
+    width: 200px;
     color: hotpink;
     background-color: hotpink;
     height: 1px;
