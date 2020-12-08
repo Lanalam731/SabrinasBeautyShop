@@ -480,30 +480,33 @@ hr {
   }
   
   iframe {
-    width: 450px;
-    height: 300px;
-  
+    display: inline;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    border-bottom: 10px;
+    padding-top: 0px;
   }
 
   #location h1 {
     text-align: left;
     position: absolute;
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 50px;
   }
   
   #location p {
     text-align: left;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 35px;
   }
   
   #location img {
-    margin-left: 170px;
-    padding-right: 190px;
-    padding-bottom: 100px;
-    padding-top: 250px;
-    width: 15 0px;
+    margin-left: 500px;
+    padding-top: 130px;
+    padding-bottom: 0px;
+    width: 150px;
     height: auto;
   }
   
@@ -558,8 +561,8 @@ hr {
   }
   
   #demo img {
-    height: 1000px;
-    width: 750px;
+    height:800px;
+    width: 650px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -654,15 +657,15 @@ hr {
   }
   
   #FAQ h1 {
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
     font-size: 50px;
   }
   
   #FAQ ul {
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 10px;
+    margin-right: 10px;
     list-style:none; 
     font-size: 30px;
     padding-bottom: 30px;
@@ -680,10 +683,10 @@ hr {
 @media only screen and (max-width: 415px) {
   #menu li {
     display: inline;
-    font-size: 30px;
+    font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
     border-right: solid;
     border-color: hotpink;
   }
@@ -693,7 +696,7 @@ hr {
   }
   
   #heading h1 {
-    font-size: 65px;
+    font-size: 30px;
     color: white;
     text-align: center;
     font-family: Garamond;
@@ -705,27 +708,29 @@ hr {
   
   #heading {
     background-color: hotpink;
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-content: center;
     position: relative;
     align-items: center;
+    width: 100%;
   }
   
   #heading img {
-    height: 150px;
+    height: 75px;
     width: auto;
   }
   
   #menu {
     text-align: center;
     background-color: black;
-    margin-left: 110px;
-    margin-right: 110px;
-    height: 100px;
+    height: 75px;
+    margin-left: 5px;
+    margin-right: 5px;
     justify-content: center;
     align-items: center;
     display: flex;
+    width: 390px;
   }
   
   body {
@@ -823,10 +828,13 @@ hr {
   }
   
   iframe {
-    padding-top: 140px;
-    padding-bottom: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
   }
-  
   #location h1 {
     text-align: left;
     position: absolute;
@@ -898,8 +906,8 @@ hr {
   }
   
   #demo img {
-    height: 1000px;
-    width: 750px;
+    height: 800px;
+    width: 650px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -913,78 +921,85 @@ hr {
   
   #who h1 {
     text-align: center;
-    margin-left: 110px;
-    margin-right: 110px;
-    font-size: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+    width: 400px;
   }
   
   #who p {
     text-align: center;
-    margin-left: 110px;
-    margin-right: 110px;
-    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    width: 400px;
   }
   
   #goals h1 {
     text-align: center;
-    margin-left: 110px;
-    margin-right: 110px;
-    font-size: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+    width: 400px;
   
   }
   
   #goals p {
     text-align: center;
-    margin-left: 110px;
-    margin-right: 110px;
-    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    width: 400px;
   
   }
   
   #book h1 {
     text-align: center;
-    margin-left: 110px;
-    margin-right: 110px;
-    font-size: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+    width: 400px;
   
   }
   
   #book p {
     text-align: center;
-    margin-left: 110px;
-    margin-right: 110px;
-    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    width: 400px;
   }
   
   #reviews h1 {
     text-align: center;
-    margin-left: 110px;
-    margin-right: 110px;
-    font-size: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+    width: 400px;
   }
   
   #reviews ul {
     text-align: center;
     font-style: italic;
-    margin-left: 110px;
-    margin-right: 110px;
-    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
     list-style-type: none;
+    width: 300px;
   }
   
   hr {
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
     color: hotpink;
     background-color: hotpink;
     height: 1px;
   }
   
   #homepage img {
-    width: 1185px;
-    height: 600px;
-    margin-left: 110px;
-    margin-right: 110px;
+    width: 95%;
+    height: auto;
   }
   
   #FAQ h1 {
