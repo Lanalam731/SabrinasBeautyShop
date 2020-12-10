@@ -814,12 +814,12 @@ hr {
   }
 
   #services h1 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bolder;
   }
 
   #services h2 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
   }
 
@@ -832,48 +832,50 @@ hr {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 100px;
     border: 0;
   }
 
   #location h1 {
     text-align: left;
     position: absolute;
-    margin-left: 110px;
-    font-size: 65px;
+    margin-left: 5px;
+    font-size: 30px;
+    margin-bottom: 0px;
   }
 
   #location p {
     text-align: left;
     position: absolute;
-    margin-left: 110px;
-    font-size: 35px;
-    padding-top: 110px;
+    margin-left: 5px;
+    font-size: 20px;
+    padding-top: 50px;
   }
 
   #location img {
-    margin-left: 300px;
-    padding-right: 190px;
-    padding-bottom: 100px;
+    margin-left: 280px;
+    height: 85px;
+    width: auto;
   }
 
   #products h1 {
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bolder;
   }
 
   #products table {
-    margin-left: 90px;
-    margin-right: 115px;
-    width: 1175px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 93%;
     text-align: center;
+    font-size: 15px;
   }
 
   #prices td {
     font-style: italic;
-    width: 391px;
+    width: 100px;
   }
 
   #sabrina p {
@@ -898,8 +900,8 @@ hr {
   }
 
   #products img {
-    height: 350px;
-    width: 250px;
+    height: 200px;
+    width: 125px;
   }
 
   #gallery h1 {
