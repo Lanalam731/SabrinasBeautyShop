@@ -266,7 +266,14 @@ iframe {
   margin-left: 110px;
   margin-right: 110px;
   font-size: 50px;
-
+  background-color: #ff69B4;
+  margin-bottom: 0%;
+  padding-top: 20px;
+  border-style: double;
+  border-color: black;
+  border-width: 8px;
+  border-bottom: none;
+  color: black;
 }
 
 #book p {
@@ -274,6 +281,15 @@ iframe {
   margin-left: 110px;
   margin-right: 110px;
   font-size: 30px;
+  background-color: #ff69B4;
+  margin-top: 0%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-style: double;
+  border-color: black;
+  border-width: 8px;
+  border-top: none;
+  color: black;
 }
 
 #reviews h1 {
@@ -329,6 +345,16 @@ hr {
 
 #FAQ ul>li {
   font-style: italic;
+}
+
+.gallerybook h1 {
+  font-family: Garamond;
+  font-weight: 700;
+}
+
+.gallerybook p {
+  font-family: Garamond;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 770px) {
@@ -610,7 +636,14 @@ hr {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 35px;
-    width: 97%;
+    width: 95%;
+    margin-bottom: 0%;
+    padding-top: 20px;
+    border-style: double;
+    border-color: black;
+    border-width: 8px;
+    border-bottom: none;
+    color: black;
   }
 
   #book p {
@@ -618,7 +651,15 @@ hr {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 25px;
-    width: 97%;
+    width: 95%;
+    margin-top: 0%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-style: double;
+    border-color: black;
+    border-width: 8px;
+    border-top: none;
+    color: black;
   }
 
   #reviews h1 {
